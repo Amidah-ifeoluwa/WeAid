@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Preloader Example</title>
+    <link rel="stylesheet" type="text/css" href="pre.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <h1>Welcome to My Website!</h1>
+
+    <script src="script.js"></script>
+</body>
+
+<script>
+    window.addEventListener("load", function () {
+        const preloader = document.getElementById("preloader");
+
+        // Hide the preloader after some delay
+        setTimeout(function () {
+            preloader.style.display = "none";
+        }, 2000); // Adjust the delay duration as needed
+    });
+</script>
+
+</html>

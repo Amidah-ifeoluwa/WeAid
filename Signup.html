@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentalAid</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Signup.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <!-- <header class="top"> -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="./img/Logo-01.png" alt="">
+        </div>
+        <ul class="links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">Meditation</a></li>
+            <li><a href="./index.html">Affirmation</a></li>
+            <li><a href="./about.html">Sleep stories</a></li>
+            <li><a href="./menu.html">Music</a></li>
+            <li><a href="./gallery.html">Therapy session</a></li>
+        </ul>
+        <div class="profile1">
+            <button type="button" class="btn text-white"><a href="./Login.html">Login</a></button>
+            <button type="button" class="btn btn-primary"><a href="./Signup.html">Signup</a></button>
+        </div>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="dropdown_menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html">Meditation</a></li>
+        <li><a href="./index.html">Affirmation</a></li>
+        <li><a href="./about.html">Sleep stories</a></li>
+        <li><a href="./menu.html">Music</a></li>
+        <li><a href="./gallery.html">Therapy session</a></li>
+        <div class="profile">
+            <button type="button" class="btn text-white"><a href="./Login.html">Login</a></button>
+            <button type="button" class="btn btn-primary"><a href="./Signup.html">Signup</a></button>
+        </div>
+    </div>
+
+    <section>
+        <div class="form-container">
+            <h1>Sign Up</h1>
+            <form action="#">
+                <div class="control">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="control">
+                    <label for="psw">E-mail</label>
+                    <input type="email" name="email" id="psw">
+                </div>
+                <div class="control">
+                    <label for="psw">Password</label>
+                    <input type="password" name="psw" id="psw">
+                </div>
+                <div class="control">
+                    <label for="psw">Confirm Password</label>
+                    <input type="password" name="psw" id="psw">
+                </div>
+                <span><input type="checkbox"> Remember Me</span>
+                <div class="control">
+                    <input type="submit" onclick="openPopup()" value="Signup">
+                </div>
+                <div class="popup" id="popup">
+                    <img src="./img/check-circle-fill.svg" alt="">
+                    <h2>Thank You!</h2>
+                    <p>Your details has been sucessfully submitted. Thanks!</p>
+                    <button type="button" onclick="closePopup()">Ok</button>
+                </div>
+            </form>
+            <div class="link">
+                <a href="#">Forgot Password?</a>
+            </div>
+            <div class="idk">
+                <p>Already have an account?</p><br>
+                <a href="./Login.html">Login</a>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/645b1e21ad80445890ec14ef/1h01urddg';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <footer>
+        <div class="footer_main">
+            <div class="footer_tag">
+                <h2>Location</h2>
+                <p>Lagos</p>
+                <p>kaduna</p>
+                <p>Abuja</p>
+                <p>Ikeja</p>
+                <p>Ikeja</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Quick links</h2>
+                <p>Home</p>
+                <p>Menu</p>
+                <p>Gallery</p>
+                <p>feedbacks</p>
+                <p>About Us</p>
+                <p>Contacts</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p>+234 815 097 1593</p>
+                <p>+234 815 097 1593</p>
+                <p>ifeoluwaamidah@gmail.com</p>
+                <p>kooklinks@gmail.com</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Our service</h2>
+                <p>Fast delivery</p>
+                <p>Easy payments</p>
+                <p>24/7 service</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Follow us on</h2>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+        <p class="end">Design by <span><i class="fa-solid fa-face-grin"></i>PhilipMix</span></p>
+    </footer>
+
+</body>
+
+</html>
