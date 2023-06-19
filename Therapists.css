@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: url(./img/Ife\ backgrond-01.jpg);
+background-size: cover;
+}
+
+
+.box{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
