@@ -12,17 +12,19 @@ html {
     background: #d8dadb;
 } */
 
-.navbar-toggler{
+.navbar-toggler {
     border: 0px !important;
     box-shadow: 0px !important;
 }
 
-.navbar-toggler:focus, input:focus, select:focus{
+.navbar-toggler:focus,
+input:focus,
+select:focus {
     outline: none !important;
     box-shadow: none !important;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url(./img/icon.svg) !important;
 }
 
@@ -39,8 +41,9 @@ html {
     justify-content: center;
 }
 
-.section img{
-display: block;    width: 500px;
+.section img {
+    display: block;
+    width: 500px;
 }
 
 #loader {
@@ -121,7 +124,7 @@ a:hover {
 
 .action_btn {
     background-color: black;
-border: 0px !important;
+    border: 0px !important;
     color: white;
     border-radius: 50px;
     padding: 10px 20px;
@@ -131,8 +134,8 @@ border: 0px !important;
     transition: scale 0.2 ease;
 }
 
-.action_btn_white{
-    background: white ;
+.action_btn_white {
+    background: white;
     color: black;
 }
 
@@ -192,7 +195,7 @@ h6 {
 
 }
 
-.premium-plan{
+.premium-plan {
     border-left: 6px solid #5b73b7;
     border-right: 6px solid #5b73b7;
 }
@@ -285,11 +288,11 @@ h6 {
 
 
 
-.nav-link{
+.nav-link {
     color: white;
 }
 
-.service-banner{
+.service-banner {
     margin-top: 50px;
     background: url(./img/banner.png);
     color: white;
@@ -298,16 +301,16 @@ h6 {
     padding: 20px 0px;
 }
 
-.services{
+.services {
     padding: 30px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     overflow-x: scroll;
-    
+
 }
 
-.service{
+.service {
     width: 400px;
     border-radius: 10px;
     margin: 20px;
@@ -316,7 +319,7 @@ h6 {
 
 
 
-.home-banner{
+.home-banner {
     background: url(./img/banner.png);
     color: white;
     background-position: center;
@@ -325,7 +328,7 @@ h6 {
 
 }
 
-.banner-img{
+.banner-img {
     width: 100%;
     height: 400px;
     background: url(./img/banner-img.jpg);
@@ -335,12 +338,12 @@ h6 {
 }
 
 
-.login-container{
+.login-container {
     display: flex;
 }
 
 
-.login-container .sided-img{
+.login-container .sided-img {
     width: 45%;
     /* background-color:  */
     color: white;
@@ -352,7 +355,7 @@ h6 {
     align-items: center;
 }
 
-.login-container .sided-img-login{
+.login-container .sided-img-login {
     width: 45%;
     /* background-color:  */
     color: white;
@@ -367,18 +370,19 @@ h6 {
     align-items: center;
 }
 
-input, select{
+input,
+select {
     border-radius: 0px !important;
     padding: 15px 10px !important;
 }
 
-label{
+label {
     margin: 30px 0px;
     color: black;
 
 }
 
-input[type=checkbox]{
+input[type=checkbox] {
     width: auto !important;
     padding: auto !important;
 }
@@ -393,25 +397,35 @@ input[type=checkbox]{
         display: none;
     }
 
-    .login-container{
+    .me {
+        width: 20px;
+        margin-left: 0px !important;
+    }
+
+    h1 {
+        margin-right: 20px !important;
+        font-size: 50px !important;
+    }
+
+    .login-container {
         display: flex;
         flex-direction: column;
     }
 
     .login-container .sided-img,
-    .login-container .sided-img-login{
+    .login-container .sided-img-login {
         width: 100% !important;
-        padding:100px 40px !important;
+        padding: 100px 40px !important;
 
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         padding: 10px 20px;
         background-color: white;
         z-index: 3;
     }
 
-    .nav-link{
+    .nav-link {
         color: black !important;
     }
 
@@ -424,12 +438,12 @@ input[type=checkbox]{
         justify-content: space-between;
     }
 
-   
-
-    
 
 
-    
+
+
+
+
 
 
 
