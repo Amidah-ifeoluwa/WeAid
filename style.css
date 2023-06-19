@@ -39,6 +39,10 @@ html {
     justify-content: center;
 }
 
+.section img{
+display: block;    width: 500px;
+}
+
 #loader {
     border: 8px solid #3498db;
     border-radius: 50%;

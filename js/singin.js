@@ -1,4 +1,5 @@
-const getSignInButton = document.getElementById("signinBtn").addEventListener("click", (e)=> {
+const getSignInButton = document.getElementById("signin")
+.addEventListener("click", (e)=> {
     e.preventDefault()
    console.log("Clcik");
 

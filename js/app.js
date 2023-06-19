@@ -20,8 +20,8 @@ signUpButton.addEventListener("click", (e) =>{
     console.log("clicked");
 
     
-    var email = document.getElementById("Email");
-    var password = document.getElementById("Password");
+    var email = document.getElementById("inputEmail");
+    var password = document.getElementById("inputPassword");
 
     auth
     .createUserWithEmailAndPassword(email.value, password.value)
@@ -51,8 +51,8 @@ signUpButton.addEventListener("click", (e) =>{
     e.preventDefault();
     console.log("sign in clicked");
 
-    var email = document.getElementById("Email");
-    var password = document.getElementById("Password");
+    var email = document.getElementById("inputEmail");
+    var password = document.getElementById("inputPassword");
 
     auth
     .signInWithEmailAndPassword(email.value, password.value)

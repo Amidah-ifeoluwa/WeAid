@@ -9,6 +9,14 @@
       align-items: center;
       justify-content: center;
   }
+  body{
+    position: fixed;
+    width: 100px;
+    z-index: 1;
+    overflow: visible;
+    background: url(./img/Snapchat-2057231794.mp4) no-repeat center center;
+
+  }
 
   #loader {
       border: 8px solid #3498db;
